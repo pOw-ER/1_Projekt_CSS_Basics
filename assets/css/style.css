@@ -1,0 +1,193 @@
+/* font-family: 'Gilda Display', serif;
+font-family: 'Maven Pro', sans-serif; */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+header {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color:#333;
+  padding: 0;
+  margin: 0;
+}
+
+/* header brand*/
+header div:first-of-type{
+  width: 5%;
+  height: 40px;
+  margin: 0;
+  padding: 10px 25px;
+}
+header p {
+  margin: 0;
+
+}
+header div p a {
+  color: #ccc;
+  text-decoration: none;
+  font-family: 'Maven Pro', sans-serif;
+  letter-spacing: 4px;
+}
+
+/* header div für creative-fresh*/
+header div:nth-child(2){
+  width: 25%;
+  height: 260px;
+  background-image: linear-gradient(to top right, violet , rgb(3, 90, 221), aqua);
+  color: white;
+  margin: 100px auto 0;
+  border: 1px solid #333;
+  border-radius: 10px;
+  text-align: center;
+}
+header div:nth-child(2):hover {
+  background-image: linear-gradient(to top right, aqua , rgb(3, 90, 221), violet );
+}
+
+header div:nth-child(2) h1 {
+  font-size: 85px;
+  font-family: 'Gilda Display', serif;
+  text-align: center;
+  margin: 0;
+}
+header div:nth-child(2) p {
+  font-family: 'Maven Pro', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  padding: 0 4px;
+}
+
+/* navbar */
+header nav {
+  width: 10%;
+  height: 150px;
+  float:right;
+  margin: 0;
+  padding: 100px 50px 20px 0;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  padding-bottom: 20px;
+  text-align: right;
+}
+header nav ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-family: 'Maven Pro', sans-serif;
+}
+header nav ul li a:hover {
+  color: white;
+}
+/* Main */
+main {
+  margin: 0;
+  padding: 0;
+}
+/* article */
+
+article {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+article div {
+  width: 80%;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+/* headline für Project*/
+article div h1 {
+  position: absolute;
+  margin: 0;
+  padding: 50px 0 0;
+  font-size: 170px;
+  text-align: center;
+  color: #cccccc50;
+}
+
+article div h2 {
+  font-size: 75px;
+  margin: 0;
+  padding-top: 195px;
+}
+
+article div p {
+  text-align: left;
+  width: 50%;
+  line-height:22px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+article p:first-of-type {
+  padding-top: 50px;
+}
+/* Sections */
+main section {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+}
+
+/* div für fotos*/
+main section:first-of-type div {
+  width: 60%;
+  height: 400px;
+  margin: 0 auto;
+  background: url('../img/foto1-pferd.jpg') left top/cover no-repeat;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-top: 150px;
+
+}
+
+main section:nth-of-type(2) div {
+  width: 60%;
+  height: 400px;
+  margin: 0 auto;
+  background: url('../img/foto2-feld.jpg') left top/cover no-repeat;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-top: 150px;
+
+}
+
+main section:last-of-type div {
+  width: 60%;
+  height: 400px;
+  margin: 0 auto;
+  background: url('../img/foto3-frau.jpg') left top/cover no-repeat;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-top: 150px;
+
+}
+
+main section h3 {
+  font-size: 50px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px 0 10px;
+}
+main section p {
+  font-size: 12px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 10px 0;
+  font-family: 'Maven Pro', sans-serif;
+}
