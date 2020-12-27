@@ -4,6 +4,8 @@ font-family: 'Maven Pro', sans-serif; */
 body {
   margin: 0;
   padding: 0;
+  box-sizing:border-box;
+  overflow-x: hidden;
 }
 /* header */
 header {
@@ -90,6 +92,7 @@ header nav ul li a:hover {
 main {
   margin: 0;
   padding: 0;
+  width: 100vw;
 }
 /* article */
 
